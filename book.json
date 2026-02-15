@@ -1,0 +1,14 @@
+{
+  "title": "CSAPP OCR 电子书",
+  "description": "CSAPP OCR 内容的 GitBook 版本",
+  "language": "zh-hans",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "-sharing",
+    "search",
+    "fontsettings"
+  ]
+}

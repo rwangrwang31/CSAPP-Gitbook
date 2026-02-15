@@ -1,0 +1,20 @@
+{
+  "name": "csapp-ocr-ebook",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CSAPP OCR 电子书（GitBook/HonKit）",
+  "scripts": {
+    "build": "honkit build",
+    "dev": "honkit serve --port 4000",
+    "clean": "rimraf _book"
+  },
+  "dependencies": {
+    "honkit": "^5.1.4"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
