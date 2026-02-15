@@ -8,7 +8,8 @@
   },
   "plugins": [
     "-sharing",
-    "search",
+    "-search",
+    "-lunr",
     "fontsettings"
   ]
 }
